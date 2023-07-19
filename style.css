@@ -151,6 +151,62 @@ body {
   text-align: left;
 }
 
+.footer {
+  height: 800px;
+  background-image: url(img/footer__back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer_img {
+  background-image: url(img/footer_logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 485px;
+  height: 333px;
+}
+.footer_year {
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 32px;
+  padding-left: 120px;
+}
+.footer_text {
+  width: 584px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 32px;
+  padding-left: 120px;
+}
+.footer_button {
+  border-radius: 30px;
+  background: #9C0332;
+  margin-left: 120px;
+  width: 234px;
+  height: 49px;
+  font-size: 15px;
+  color: #FFFFFF;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  transition: all 0.3s;
+}
+.footer_button:hover {
+  transform: scale(1.04);
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;

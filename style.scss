@@ -168,6 +168,7 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
+    display: flex;
     &_img{
             background-image: url(img/footer_logo.png);
             background-repeat: no-repeat;
@@ -186,7 +187,6 @@ body{
         letter-spacing: 0px;
         text-align: left;
         padding-bottom: 32px;
-        padding-left: 120px;
        
         
     }
@@ -199,13 +199,11 @@ body{
         letter-spacing: 0px;
         text-align: left;
         padding-bottom: 32px;
-        padding-left: 120px;
     }
 
     &_button{
         border-radius: 30px;
         background: #9C0332;
-         margin-left: 120px;
          width: 234px;
          height: 49px;
          font-size: 15px;

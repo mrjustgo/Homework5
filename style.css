@@ -157,6 +157,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
 }
 .footer_img {
   background-image: url(img/footer_logo.png);
@@ -175,7 +176,6 @@ body {
   letter-spacing: 0px;
   text-align: left;
   padding-bottom: 32px;
-  padding-left: 120px;
 }
 .footer_text {
   width: 584px;
@@ -186,12 +186,10 @@ body {
   letter-spacing: 0px;
   text-align: left;
   padding-bottom: 32px;
-  padding-left: 120px;
 }
 .footer_button {
   border-radius: 30px;
   background: #9C0332;
-  margin-left: 120px;
   width: 234px;
   height: 49px;
   font-size: 15px;
@@ -286,6 +284,8 @@ body {
     gap: 32px;
     padding-top: 128px;
     padding-bottom: 128px;
+    display: grid;
+    justify-content: center;
   }
   .menu__text {
     color: #FFFFFF;
@@ -368,8 +368,9 @@ body {
     line-height: 39px;
     letter-spacing: 0px;
     text-align: center;
-    padding-left: 66px;
-    padding-top: 32px;
+    margin-left: 66px;
+    margin-right: 66px;
+    width: 243px;
   }
   .footer_text {
     font-family: Montserrat;
@@ -378,9 +379,7 @@ body {
     line-height: 22px;
     letter-spacing: 0px;
     text-align: center;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 32px;
+    width: 343px;
   }
   .footer_img {
     width: 344px;
@@ -393,5 +392,9 @@ body {
   .footer_top {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .footer_img {
+    margin-left: 16px;
+    margin-right: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
